@@ -1,5 +1,5 @@
 <?php
-// DIC configuration
+// TODO Move dependencies to App/settings.php
 
 $container = $app->getContainer();
 
