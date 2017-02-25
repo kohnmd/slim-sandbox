@@ -22,6 +22,7 @@ return [
     'App.Component.RouteRegistry' => function(ContainerInterface $c) {
         return new RouteRegistry($c);
     },
+
     'App.Bootstrap' => function(RouteRegistry $routeRegistry) {
         return new Bootstrap($routeRegistry);
     }
