@@ -35,8 +35,6 @@ class RouteRegistry
 
                 if (is_file($file)) {
                     require $file;
-
-                    s($file);
                 }
             }
 
